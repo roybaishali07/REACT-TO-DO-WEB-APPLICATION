@@ -1,0 +1,106 @@
+.main-content {
+    flex: 1;
+    background: #e9e6fc;
+    padding: 2rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-task-box {
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-task-button {
+    font-size: 2rem;
+    background: #6a0dad;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .add-task-form input,
+  .add-task-form select {
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    margin-right: 1rem;
+    width: calc(100% - 1rem); 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  
+  .add-task-form button {
+    background-color: #6a0dad;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .task-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-category-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 1rem;
+  }
+  
+  .task-text {
+    flex: 1;
+  }
+  
+  .task-actions {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .task-edit-button,
+  .task-delete-button {
+    background-color: #ffb74d;
+    color: white;
+    padding: 0.5rem;
+    margin-left:1 rem;
+    margin-right:1 rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .task-edit-button:hover,
+  .task-delete-button:hover {
+    background-color: #ff8f00;
+  }
+  .task-time{
+    margin-right:1rem;
+  }
